@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ape - Latvia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Language Selector -->
+    <header>
+        <h1 id="site-title">Welcome to Ape, Latvia</h1>
+        <nav>
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('lv')">Latviešu</button>
+            <button onclick="changeLanguage('ru')">Русский</button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="description">
+            <h2 id="section-title">About Ape</h2>
+            <p id="section-text">
+                Ape is a small town in Latvia, known for its beautiful nature and rich cultural heritage.
+            </p>
+            <p id="population">Population: ~800 people</p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img src="https://picsum.photos/600/400?random=1" alt="Ape Landscape">
+                <img src="https://picsum.photos/600/400?random=2" alt="Ape Nature">
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video">
+            <h2>Discover Ape</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T9EGlkEkLAI" 
+                title="Latvia Nature" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <!-- Map Section -->
+        <section id="map">
+            <h2>Where is Ape?</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23719.150151272383!2d26.540336500000003!3d57.53944360000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e85b2781f4b477%3A0x52bb26d1606b67b!2sApe%2C%20Latvia!5e0!3m2!1sen!2sus!4v1716555571903" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ape Tourism | Developed by Your Name</p>
+    </footer>
+</body>
+</html>
